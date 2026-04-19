@@ -45,7 +45,7 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-5xl sm:text-3xl md:text-9xl font-semibold font-[naam] flex justify-center py-20 hover:line-through">
+      <h2 className="text-5xl sm:text-3xl md:text-9xl font-semibold font-[naam] flex justify-center py-20">
         PROJECTS
       </h2>
 
@@ -93,7 +93,7 @@ const Projects = () => {
             three="mongodb"
             title="CRUD App"
             detail="CRUD app using Node, Express, MongoDB."
-            link="https://crud-app-e1i8.onrender.com/posts"
+            link="https://crud-app-e1i8.onrender.com/"
           />
 
           <Box

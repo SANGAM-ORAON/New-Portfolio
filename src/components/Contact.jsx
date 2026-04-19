@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <section id="contact">
-        <h2 className="text-5xl sm:text-3xl md:text-9xl font-semibold font-[naam] h-auto w-auto flex justify-center pt-20 hover:line-through">
+        <h2 className="text-5xl sm:text-3xl md:text-9xl font-semibold font-[naam] h-auto w-auto flex justify-center pt-20">
           CONTACT
         </h2>
 

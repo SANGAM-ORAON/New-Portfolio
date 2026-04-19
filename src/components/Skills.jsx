@@ -6,7 +6,7 @@ const Skills = () => {
     <>
       <section id="skills">
 
-        <h2 className="text-6xl sm:text-3xl md:text-9xl font-semibold font-[naam] h-auto w-auto flex justify-center py-20 hover:line-through">
+        <h2 className="text-6xl sm:text-3xl md:text-9xl font-semibold font-[naam] h-auto w-auto flex justify-center py-20">
           SKILLS
         </h2>
 

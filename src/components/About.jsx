@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
     <section id="about">
-      <h2 className="text-6xl sm:text-3xl md:text-9xl font-semibold font-[naam] h-auto w-auto flex justify-center py-20 hover:line-through">
+      <h2 className="text-6xl sm:text-3xl md:text-9xl font-semibold font-[naam] h-auto w-auto flex justify-center py-20">
           ABOUT
         </h2>
       <div className="bg-black text-blue-50 ">
