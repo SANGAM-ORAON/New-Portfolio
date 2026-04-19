@@ -50,7 +50,7 @@ const About = () => {
           {/* Top End */}
 
          <div className="h-full">
-           <div className="bg-[url('./images/about.png')] w-full bg-contain bg-center bg-no-repeat h-96 "></div>
+           <div className="bg-[url('/images/about.png')] w-full bg-contain bg-center bg-no-repeat h-96 "></div>
          </div>
 
           {/* Bottom */}
