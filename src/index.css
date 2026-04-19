@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+/* ------------------------- */
+
+@font-face{
+  font-family: nav;
+  src: url("./assets/Almond\ Milky.otf");
+}
+@font-face{
+  font-family: naam;
+  src: url("./assets/Syne-Bold.ttf");
+}
+@font-face{
+  font-family: name;
+  src: url("./assets/Helvetica-BoldOblique.ttf");
+}
+@font-face{
+  font-family: role;
+  src: url("./assets/Maximum\ Voltage\ Italic.otf");
+}
+@font-face{
+  font-family: intro;
+  src: url("./assets/YapariTrial-Medium.ttf");
+}
+@font-face{
+  font-family: about;
+  src: url("./assets/Retimoa.otf");
+}
+@font-face{
+  font-family: about-text;
+  src: url("./assets/Akira\ Expanded\ Demo.otf");
+}
+@font-face{
+  font-family: sample-1;
+  src: url("./assets/DR\ Exclusive\ Editorial.ttf");
+}
+@font-face{
+  font-family: sample-2;
+  src: url("./assets/Splatink_PERSONAL_USE_ONLY.otf");
+}
+@font-face{
+  font-family: sample-3;
+  src: url("./assets/PastelTrunk-Regular.otf");
+}
+
+/* --------------------------- */
+
+html,
+body,
+main {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #faf9f9;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* -------------------------------- */
+
+nav{
+    font-family: nav;
+}
+
+/* ----------------------------------- */
+
+#hero{
+    height:fit-content;
+    padding-bottom: 6rem;
+}
+
+#about{
+    height: max-content;
+}
+
+#skills{
+    height: fit-content;
+}
+
+#projects{
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+
+#contact{
+    height: fit-content;
+}
+
+/* -------------------------- */
+
+::selection {
+  background-color: #3c096c;
+  color: #faf9f9;
+}
+
+.fade {
+  animation: fadeInOut 2s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+  0%   { opacity: 0; }
+  50%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.connect-section {
+  display: none;
+}
+
+.connect-section:target {
+  display: block;
+}
+
+
+/* hide scrollbar */
+/* .scrollbar::-webkit-scrollbar {
+  display: none;
+} */
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
