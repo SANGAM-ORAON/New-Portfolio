@@ -4,9 +4,9 @@ import Resume from '../assets/resume.pdf'
 const Hero = () => {
   return (
     <section id="hero" className="scroll-mt-28">
-      <div className="flex flex-col items-center w-full mt-24 md:mt-32 lg:mt-40 gap-6 md:gap-8 lg:gap-10">
+      <div className="flex flex-col items-center w-full mt-30 md:mt-32 lg:mt-40 gap-6 md:gap-8 lg:gap-10">
           <a href="#connect">
-        <h4 className="border border-gray-800 rounded-2xl px-3 py-1 text-sm md:text-base font-mono bg-[#131313]">
+        <h4 className="border border-gray-800 rounded-2xl px-3 mb-12 md:mb-0 py-1 text-sm md:text-base font-mono bg-[#131313]">
           <span className="text-green-500 mr-2 fade">●</span>AVAILABLE FOR NEW PROJECTS
         </h4>
         </a>
