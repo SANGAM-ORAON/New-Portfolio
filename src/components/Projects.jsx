@@ -63,7 +63,7 @@ const Projects = () => {
             three="gsap"
             title="Portfolio"
             detail="Modern portfolio built using React and Tailwind CSS."
-            link=""
+            link="https://new-portfolio-sg7v.vercel.app/"
           />
 
           <Box
